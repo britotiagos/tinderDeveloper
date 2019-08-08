@@ -1,9 +1,10 @@
 import React from "react";
-
 import "./App.css";
 
+import Login from "./pages/login";
+
 function App() {
-  return <h1>Tiago Brito</h1>;
+  return <Login />;
 }
 
 export default App;

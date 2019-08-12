@@ -16,10 +16,10 @@
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* tindevTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* tindevTests.m */; };
-		40558C3F147C872089D2B947 /* libPods-tindev-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FFFFC8C0125DB4B9FFEA17CB /* libPods-tindev-tvOSTests.a */; };
-		4C4FE3EC48BF214C701B0393 /* libPods-tindevTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FF6836E0D85797EABD6928C /* libPods-tindevTests.a */; };
-		C506938B00803F1BD2A22B2C /* libPods-tindev.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 26F77D3DB83C83AC556526F4 /* libPods-tindev.a */; };
-		F5FE2434975125BC3EEC78AB /* libPods-tindev-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F619273C8FCF1967CD69AEA9 /* libPods-tindev-tvOS.a */; };
+		B6F75102B35A7DA1400B602F /* libPods-tindev.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9904F3490BE8CD9CBCAA17D2 /* libPods-tindev.a */; };
+		BC26BEBE1423C139AF15E7B0 /* libPods-tindevTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 25004DC48BD08EB10A979A32 /* libPods-tindevTests.a */; };
+		DDD64FECCD514B24EF600694 /* libPods-tindev-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA761EF0B4E53995B73060B6 /* libPods-tindev-tvOS.a */; };
+		F1A0C5A616B4BB2066030F66 /* libPods-tindev-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CA8BEA943AA4A7254405490 /* libPods-tindev-tvOSTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +44,7 @@
 		00E356EE1AD99517003FC87E /* tindevTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tindevTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* tindevTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tindevTests.m; sourceTree = "<group>"; };
-		0E0895CE876AF12FF86A27F3 /* Pods-tindev-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tindev-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-tindev-tvOSTests/Pods-tindev-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0452BBBA0FC9D12CE5D3F249 /* Pods-tindev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tindev.release.xcconfig"; path = "Target Support Files/Pods-tindev/Pods-tindev.release.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* tindev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tindev.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = tindev/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = tindev/AppDelegate.m; sourceTree = "<group>"; };
@@ -52,21 +52,21 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = tindev/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = tindev/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = tindev/main.m; sourceTree = "<group>"; };
-		256CC34049F55D32B54FBE8B /* Pods-tindev-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tindev-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-tindev-tvOS/Pods-tindev-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		26F77D3DB83C83AC556526F4 /* libPods-tindev.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-tindev.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D594F3FF1920B90BFAED50D /* Pods-tindev-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tindev-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-tindev-tvOS/Pods-tindev-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		1F369E7DBE16A4B4A96F72E7 /* Pods-tindev-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tindev-tvOS.release.xcconfig"; path = "Target Support Files/Pods-tindev-tvOS/Pods-tindev-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		25004DC48BD08EB10A979A32 /* libPods-tindevTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-tindevTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E47B1E0B4A5D006451C7 /* tindev-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tindev-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* tindev-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tindev-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		345B170635BE73127F154A86 /* Pods-tindev-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tindev-tvOS.release.xcconfig"; path = "Target Support Files/Pods-tindev-tvOS/Pods-tindev-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		4FF6836E0D85797EABD6928C /* libPods-tindevTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-tindevTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		94C3B188FE9B16523067F0CA /* Pods-tindev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tindev.release.xcconfig"; path = "Target Support Files/Pods-tindev/Pods-tindev.release.xcconfig"; sourceTree = "<group>"; };
-		E0C5CBC812256F6BF42AB002 /* Pods-tindev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tindev.debug.xcconfig"; path = "Target Support Files/Pods-tindev/Pods-tindev.debug.xcconfig"; sourceTree = "<group>"; };
+		3CA8BEA943AA4A7254405490 /* libPods-tindev-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-tindev-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B53F40FD2404983BF3BE990 /* Pods-tindev-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tindev-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-tindev-tvOSTests/Pods-tindev-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		76D2889EEAD05E634F0BECA6 /* Pods-tindev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tindev.debug.xcconfig"; path = "Target Support Files/Pods-tindev/Pods-tindev.debug.xcconfig"; sourceTree = "<group>"; };
+		8C6FBB1FC9CC349CACCB449D /* Pods-tindev-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tindev-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-tindev-tvOSTests/Pods-tindev-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		9904F3490BE8CD9CBCAA17D2 /* libPods-tindev.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-tindev.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA761EF0B4E53995B73060B6 /* libPods-tindev-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-tindev-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2936A297B3A1BEBC5856D3B /* Pods-tindevTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tindevTests.debug.xcconfig"; path = "Target Support Files/Pods-tindevTests/Pods-tindevTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EBC277BC4202A4CB37B2FF75 /* Pods-tindevTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tindevTests.release.xcconfig"; path = "Target Support Files/Pods-tindevTests/Pods-tindevTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		F616305F2238F91B4BD5A2BF /* Pods-tindevTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tindevTests.debug.xcconfig"; path = "Target Support Files/Pods-tindevTests/Pods-tindevTests.debug.xcconfig"; sourceTree = "<group>"; };
-		F619273C8FCF1967CD69AEA9 /* libPods-tindev-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-tindev-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC0C9FE27F44DF590F6F5FE9 /* Pods-tindevTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tindevTests.release.xcconfig"; path = "Target Support Files/Pods-tindevTests/Pods-tindevTests.release.xcconfig"; sourceTree = "<group>"; };
-		FEC459E0C9D567382C3D5E32 /* Pods-tindev-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tindev-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-tindev-tvOSTests/Pods-tindev-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		FFFFC8C0125DB4B9FFEA17CB /* libPods-tindev-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-tindev-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C4FE3EC48BF214C701B0393 /* libPods-tindevTests.a in Frameworks */,
+				BC26BEBE1423C139AF15E7B0 /* libPods-tindevTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C506938B00803F1BD2A22B2C /* libPods-tindev.a in Frameworks */,
+				B6F75102B35A7DA1400B602F /* libPods-tindev.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5FE2434975125BC3EEC78AB /* libPods-tindev-tvOS.a in Frameworks */,
+				DDD64FECCD514B24EF600694 /* libPods-tindev-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40558C3F147C872089D2B947 /* libPods-tindev-tvOSTests.a in Frameworks */,
+				F1A0C5A616B4BB2066030F66 /* libPods-tindev-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,33 +136,33 @@
 			name = tindev;
 			sourceTree = "<group>";
 		};
+		278CA2FAC1B1319D36C276A4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				76D2889EEAD05E634F0BECA6 /* Pods-tindev.debug.xcconfig */,
+				0452BBBA0FC9D12CE5D3F249 /* Pods-tindev.release.xcconfig */,
+				1D594F3FF1920B90BFAED50D /* Pods-tindev-tvOS.debug.xcconfig */,
+				1F369E7DBE16A4B4A96F72E7 /* Pods-tindev-tvOS.release.xcconfig */,
+				4B53F40FD2404983BF3BE990 /* Pods-tindev-tvOSTests.debug.xcconfig */,
+				8C6FBB1FC9CC349CACCB449D /* Pods-tindev-tvOSTests.release.xcconfig */,
+				B2936A297B3A1BEBC5856D3B /* Pods-tindevTests.debug.xcconfig */,
+				EBC277BC4202A4CB37B2FF75 /* Pods-tindevTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				26F77D3DB83C83AC556526F4 /* libPods-tindev.a */,
-				F619273C8FCF1967CD69AEA9 /* libPods-tindev-tvOS.a */,
-				FFFFC8C0125DB4B9FFEA17CB /* libPods-tindev-tvOSTests.a */,
-				4FF6836E0D85797EABD6928C /* libPods-tindevTests.a */,
+				9904F3490BE8CD9CBCAA17D2 /* libPods-tindev.a */,
+				AA761EF0B4E53995B73060B6 /* libPods-tindev-tvOS.a */,
+				3CA8BEA943AA4A7254405490 /* libPods-tindev-tvOSTests.a */,
+				25004DC48BD08EB10A979A32 /* libPods-tindevTests.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		645B432190A2A4AF6B98C64D /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				E0C5CBC812256F6BF42AB002 /* Pods-tindev.debug.xcconfig */,
-				94C3B188FE9B16523067F0CA /* Pods-tindev.release.xcconfig */,
-				256CC34049F55D32B54FBE8B /* Pods-tindev-tvOS.debug.xcconfig */,
-				345B170635BE73127F154A86 /* Pods-tindev-tvOS.release.xcconfig */,
-				0E0895CE876AF12FF86A27F3 /* Pods-tindev-tvOSTests.debug.xcconfig */,
-				FEC459E0C9D567382C3D5E32 /* Pods-tindev-tvOSTests.release.xcconfig */,
-				F616305F2238F91B4BD5A2BF /* Pods-tindevTests.debug.xcconfig */,
-				FC0C9FE27F44DF590F6F5FE9 /* Pods-tindevTests.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -180,7 +180,7 @@
 				00E356EF1AD99517003FC87E /* tindevTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				645B432190A2A4AF6B98C64D /* Pods */,
+				278CA2FAC1B1319D36C276A4 /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -205,7 +205,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "tindevTests" */;
 			buildPhases = (
-				4FFF0A0EB7337A5621E8A089 /* [CP] Check Pods Manifest.lock */,
+				CA9059B1FEF7ED1FDE419B8A /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
@@ -224,7 +224,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "tindev" */;
 			buildPhases = (
-				39E1E4B34B709064A1AA659E /* [CP] Check Pods Manifest.lock */,
+				5A2BA131128D3A39018B5AFF /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
@@ -244,7 +244,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "tindev-tvOS" */;
 			buildPhases = (
-				BF63E42DC368D27F89A9B208 /* [CP] Check Pods Manifest.lock */,
+				D66F490A2CC01C6D8EE58BB1 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -264,7 +264,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "tindev-tvOSTests" */;
 			buildPhases = (
-				E67938778321D3EBEA9DDB57 /* [CP] Check Pods Manifest.lock */,
+				627D992B45562E118138A19F /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -387,7 +387,7 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		39E1E4B34B709064A1AA659E /* [CP] Check Pods Manifest.lock */ = {
+		5A2BA131128D3A39018B5AFF /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -409,7 +409,29 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		4FFF0A0EB7337A5621E8A089 /* [CP] Check Pods Manifest.lock */ = {
+		627D992B45562E118138A19F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tindev-tvOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA9059B1FEF7ED1FDE419B8A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -431,7 +453,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BF63E42DC368D27F89A9B208 /* [CP] Check Pods Manifest.lock */ = {
+		D66F490A2CC01C6D8EE58BB1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -447,28 +469,6 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-tindev-tvOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E67938778321D3EBEA9DDB57 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-tindev-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -580,7 +580,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F616305F2238F91B4BD5A2BF /* Pods-tindevTests.debug.xcconfig */;
+			baseConfigurationReference = B2936A297B3A1BEBC5856D3B /* Pods-tindevTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -603,7 +603,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FC0C9FE27F44DF590F6F5FE9 /* Pods-tindevTests.release.xcconfig */;
+			baseConfigurationReference = EBC277BC4202A4CB37B2FF75 /* Pods-tindevTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -623,7 +623,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E0C5CBC812256F6BF42AB002 /* Pods-tindev.debug.xcconfig */;
+			baseConfigurationReference = 76D2889EEAD05E634F0BECA6 /* Pods-tindev.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
@@ -643,7 +643,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 94C3B188FE9B16523067F0CA /* Pods-tindev.release.xcconfig */;
+			baseConfigurationReference = 0452BBBA0FC9D12CE5D3F249 /* Pods-tindev.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
@@ -662,7 +662,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 256CC34049F55D32B54FBE8B /* Pods-tindev-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 1D594F3FF1920B90BFAED50D /* Pods-tindev-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -690,7 +690,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 345B170635BE73127F154A86 /* Pods-tindev-tvOS.release.xcconfig */;
+			baseConfigurationReference = 1F369E7DBE16A4B4A96F72E7 /* Pods-tindev-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -718,7 +718,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0E0895CE876AF12FF86A27F3 /* Pods-tindev-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 4B53F40FD2404983BF3BE990 /* Pods-tindev-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -745,7 +745,7 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FEC459E0C9D567382C3D5E32 /* Pods-tindev-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 8C6FBB1FC9CC349CACCB449D /* Pods-tindev-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;

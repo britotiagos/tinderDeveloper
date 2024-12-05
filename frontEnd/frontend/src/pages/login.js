@@ -1,12 +1,14 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import "./Login.css";
 
 import api from "../services/api.js";
 
 import logo from "../assets/logo.svg";
 
-export default function Login({ history }) {
+export default function Login() {
   const [username, setUsername] = useState("");
+  const navigate = useNavigate();
 
   async function handleSubmit(e) {
     e.preventDefault();
@@ -15,7 +17,7 @@ export default function Login({ history }) {
     });
     const { _id } = response.data;
 
-    history.push(`/devs/${_id}`);
+    navigate(`/devs/${_id}`);
   }
 
   return (

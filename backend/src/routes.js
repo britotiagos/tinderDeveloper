@@ -1,13 +1,16 @@
-const express = require("express");
-const DevController = require("./controllers/DevController");
-const LikeController = require("./controllers/LikeController");
-const DislikeController = require("./controllers/DislikeController");
+import { Router } from 'express';
+import DevController from './controllers/DevController.js';
+import LikeController from './controllers/LikeController.js';
+import DislikeController from './controllers/DislikeController.js';
 
-const routes = express.Router();
+const router = Router();
 
-routes.get("/devs", DevController.index);
-routes.post("/devs", DevController.store);
-routes.post("/devs/:devId/likes", LikeController.store);
-routes.post("/devs/:devId/dislikes", DislikeController.store);
+// Dev routes
+router.get('/devs', DevController.index);
+router.post('/devs', DevController.store);
 
-module.exports = routes;
+// Like/Dislike routes
+router.post('/devs/:devId/likes', LikeController.store);
+router.post('/devs/:devId/dislikes', DislikeController.store);
+
+export default router;

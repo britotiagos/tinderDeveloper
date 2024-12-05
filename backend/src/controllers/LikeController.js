@@ -1,24 +1,44 @@
-const Dev = require("../model/Dev");
-module.exports = {
-  async store(req, res) {
-    const { devId } = req.params;
-    const { user } = req.headers;
+import Dev from '../model/Dev.js';
+import { AppError } from '../utils/AppError.js';
 
-    const loggedDev = await Dev.findById(user);
-    const targetDev = await Dev.findById(devId);
+class LikeController {
+  async store(req, res, next) {
+    try {
+      const { devId } = req.params;
+      const { user } = req.headers;
 
-    if (!targetDev) {
-      return res.status(400).json({ error: "Dev does not exist" });
+      if (!user) {
+        throw new AppError('User ID is required in headers', 400);
+      }
+
+      const loggedDev = await Dev.findById(user);
+      if (!loggedDev) {
+        throw new AppError('Logged user not found', 404);
+      }
+
+      const targetDev = await Dev.findById(devId);
+      if (!targetDev) {
+        throw new AppError('Target dev not found', 404);
+      }
+
+      // Check for match
+      const isMatch = targetDev.likes.includes(loggedDev._id);
+      
+      // Add like
+      if (!loggedDev.likes.includes(targetDev._id)) {
+        loggedDev.likes.push(targetDev._id);
+        await loggedDev.save();
+      }
+
+      return res.json({
+        ok: true,
+        match: isMatch,
+        dev: loggedDev
+      });
+    } catch (error) {
+      next(error);
     }
-
-    if (targetDev.likes.includes(loggedDev._id)) {
-      console.log("Matcheeeeed");
-    }
-
-    loggedDev.likes.push(targetDev._id);
-
-    await loggedDev.save();
-
-    return res.json(loggedDev);
   }
-};
+}
+
+export default new LikeController();

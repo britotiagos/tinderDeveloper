@@ -13,6 +13,7 @@ A Tinder-like application for developers to connect based on their GitHub profil
 ## Tech Stack 💻
 
 ### Backend
+
 - Node.js with Express
 - MongoDB Atlas for database
 - ES Modules for modern JavaScript
@@ -20,18 +21,21 @@ A Tinder-like application for developers to connect based on their GitHub profil
 - Environment-based configuration
 
 ### Frontend
+
 - React 18
 - React Router v6
 - Modern hooks and patterns
 - Responsive design
 
 ### Mobile
+
 - React Native
 - Cross-platform (iOS & Android)
 
 ## Getting Started 🏁
 
 ### Prerequisites
+
 - Node.js >= 20.x
 - MongoDB Atlas account
 - GitHub account
@@ -39,12 +43,14 @@ A Tinder-like application for developers to connect based on their GitHub profil
 ### Installation
 
 1. Clone the repository:
+
 ```bash
-git clone https://github.com/yourusername/tinDev.git
+git clone git@github.com:britotiagos/tinderDeveloper.git
 cd tinDev
 ```
 
 2. Backend Setup:
+
 ```bash
 cd backend
 yarn install
@@ -54,6 +60,7 @@ yarn dev
 ```
 
 3. Frontend Setup:
+
 ```bash
 cd frontend
 yarn install
@@ -61,6 +68,7 @@ yarn start
 ```
 
 4. Mobile Setup:
+
 ```bash
 cd mobile
 yarn install
@@ -70,10 +78,12 @@ npx react-native run-ios # or run-android
 ## API Endpoints 📡
 
 ### Developers
+
 - `GET /api/devs` - List all developers
 - `POST /api/devs` - Register new developer (requires GitHub username)
 
 ### Interactions
+
 - `POST /api/devs/:devId/likes` - Like a developer
 - `POST /api/devs/:devId/dislikes` - Dislike a developer
 
